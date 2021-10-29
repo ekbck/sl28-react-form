@@ -1,0 +1,88 @@
+html, body {
+    height: 100%;
+    margin: 0px;
+}
+
+h1, h3, p, button {
+    font-family: Futura,Trebuchet MS,Arial,sans-serif;
+}
+
+.app-body {
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0px;
+}
+
+.confirm-button {
+    align-self: center;
+    background-color: #26b88c;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 5%;
+    width: 85%;
+}
+
+.counter-body {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+}
+
+.counter-button {
+    background-color: #eee;
+    border-radius: 10px;
+    height: 2.5em;
+    width: 33%;
+    align-self: center;
+}
+
+.counter-info {
+    align-self: center;
+    font-size: 23px;
+}
+
+.counter-interactive {
+    align-self: center;
+    display: flex;
+    justify-content: flex-end;
+    width: 33%;
+}
+
+.counter-list {
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.counter-price {
+    font-size: 15px;
+}
+
+.counter-value {
+    width: 33%;
+    font-size: 20px;
+    text-align: center;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    height: inherit;
+    justify-content: space-around;
+}
+
+.header {
+    border-radius: 0px 0px 10px 10px;
+    background-color: #3589A1;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-text {
+    color: #fafafa;
+    font-family: Futura,Trebuchet MS,Arial,sans-serif;
+}
