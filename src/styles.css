@@ -32,12 +32,12 @@ h1, h3, p, button {
 }
 
 .counter-button {
+    align-self: center;
     background-color: #eee;
     border-radius: 10px;
     color: #000;
     height: 2.5em;
     width: 33%;
-    align-self: center;
 }
 
 .counter-info {
@@ -53,11 +53,11 @@ h1, h3, p, button {
 }
 
 .counter-list {
+    align-items: center;
     display: flex;
     flex-direction: column;
     height: 70%;
     justify-content: space-around;
-    align-items: center;
 }
 
 .counter-price {
@@ -65,9 +65,9 @@ h1, h3, p, button {
 }
 
 .counter-value {
-    width: 33%;
     font-size: 20px;
     text-align: center;
+    width: 33%;
 }
 
 .form-container {
@@ -78,8 +78,8 @@ h1, h3, p, button {
 }
 
 .header {
-    border-radius: 0px 0px 10px 10px;
     background-color: #3589A1;
+    border-radius: 0px 0px 10px 10px;
     display: flex;
     justify-content: space-around;
 }
